@@ -30,8 +30,6 @@ typedef struct _KLDR_DATA_TABLE_ENTRY
 	PVOID PatchInformation;
 } KLDR_DATA_TABLE_ENTRY, * PKLDR_DATA_TABLE_ENTRY;
 
-	//////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 extern "C" void DkomUnlinking() {
 	PKLDR_DATA_TABLE_ENTRY pSelfEntry = nullptr;
 	auto pNext = PsLoadedModuleList->Flink;
