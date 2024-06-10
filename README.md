@@ -73,3 +73,6 @@ extern "C" void DkomUnlinking() {
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////
 }
 ```
+
+# Contact
+If you want an actually good Kernel Level Cheat that is UD My discord is -> `_ambitza`
